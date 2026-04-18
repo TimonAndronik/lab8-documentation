@@ -1,0 +1,15 @@
+site_name: Project Documentation
+site_description: Documentation as Code for online learning platform
+docs_dir: docs
+
+nav:
+  - Home: README.md
+  - Architecture:
+      - SSD: architecture/SSD.md
+      - SDD: architecture/SDD.md
+      - ISD: architecture/ISD.md
+  - Quality:
+      - Test Strategy: quality/test-strategy.md
+      - Traceability Matrix: quality/traceability-matrix.md
+  - Developer:
+      - Onboarding: developer/onboarding.md
